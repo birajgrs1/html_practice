@@ -1,0 +1,27 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    align-items: center;
+
+}
+h3{
+    border: 1px solid red;
+    color: blue;
+    background-color: antiquewhite;
+    size: 20vh;
+    margin: 8px;
+    padding:14px;
+}
+p{
+    color: #7a1436;
+    display: flex;
+    justify-content:center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+h1{
+    background-color: aquamarine;
+    text-align: center;
+    align-items: center;
+}

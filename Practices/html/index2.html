@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tutorial</title>
+    <style>
+        table,th,td{
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <fieldset>
+        <legend>Heading, paragraphs and Anchors (a) i.e link </legend>
+
+        <!-- Comment in HTML -->
+        <!-- Heading in HTML -->
+        <h1>This is main Heading (Heading 1).</h1>
+        <h2>This is Heading 2.</h2>
+        <h3>This is Heading 2.</h3>
+        <h4>This is Heading 4.</h4>
+        <h5>This is Heading 5.</h5>
+        <h6>This is Heading 6.</h6>
+        
+
+        <!-- Paragraph in HTML -->
+        <p style="background-color: yellowgreen; color: rgb(255, 255, 255);">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum ipsam reiciendis sapiente aspernatur quae dignissimos, nostrum inventore ipsum eius nisi saepe odio. Accusamus,
+             recusandae voluptates! Quaerat dolores nemo porro odit!</p>
+        
+         <!--Link anchor in html  -->
+         <a href="https://www.google.com">Open google</a>
+
+    </fieldset>
+
+<fieldset>
+    <legend>Image, Lists, and Tables</legend>
+<!-- Images in html -->
+<img src="/static/myPhoto.jpg" alt="My photo" height="220" width="324">
+
+<!-- Table in HTML -->
+<table>
+<br>
+    <tr>
+        <th>id</th>
+        <th>name</th>
+        <th>address</th>
+        <th>phone</th> 
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Aarav</td>
+        <td>KTM</td>
+        <td>9800000000</td> 
+    </tr>
+    <tr>
+        <td>12</td>
+        <td>Asmeeta</td>
+        <td>Bhaktapyr</td>
+        <td>9851000000</td> 
+    </tr>
+</table>
+<br>
+<!-- Rowspan and colspan  -->
+<table>
+    <tr>
+<th>Time & Day</th>
+<th>06:30-7:30</th>
+<th>07:30-8-30</th>
+<th>08:30-09:30</th>
+<th>09:30-10:30</th>
+
+</tr>
+<tr>
+    <td>Sunday</td>
+    <td>CDC</td>
+    <td>E-Com</td>
+    <td>SE</td>
+    <td>E-Gov</td>
+</tr>
+<tr>
+    <td>Monday</td>
+    <td>CDC</td>
+    <td>E-Com</td>
+    <td>SE</td>
+    <td>E-Gov</td>
+</tr>
+<tr>
+    <td>Tuesday</td>
+    <td>CDC</td>
+    <td>E-Com</td>
+    <td>SE</td>
+    <td>E-Gov</td>
+</tr>
+<tr>
+    <td>Wednesday</td>
+    <td rowspan="3" colspan="2">NCC</td>
+    <td rowspan="3" >TW</td>
+    <td rowspan="3" ></td>
+</tr>
+<tr>
+    <td>Thursday</td>
+   
+</tr>
+<tr>
+    <td>Friday</td>
+</tr>
+</table>
+
+<!-- Header and footer in HTML -->
+<table>
+    <caption>Employee Detail</caption>
+<thead>
+<!-- Header Content -->
+<tr>
+    <th>EID</th>
+    <th>EName</th>
+    <th>Address</th>
+    <th>Phone</th>
+    <th>Salary</th>
+</tr>
+</thead>
+<tbody>
+    <!-- Body of the content -->
+    <tr>
+        <td>100</td>
+        <td>Amit Sah</td>
+        <td>Sunsari</td>
+        <td>9851029293</td>
+        <td>30000</td>
+    </tr>
+    <tr>
+        <td>101</td>
+        <td>Bijaya Shahi</td>
+        <td>Morang</td>
+        <td>9733440345</td>
+        <td>40000</td>
+    </tr>
+    <tr>
+        <td>102</td>
+        <td>Seema Karki</td>
+        <td>Kavrepalanchok</td>
+        <td>9876543210</td>
+        <td>35000</td>
+    </tr>
+   
+</tbody>
+<tfoot>
+    <!-- Footer Content -->
+    <tr>
+        <td colspan="4">Total Salary</td>
+        <td>105000</td> 
+    </tr>
+
+</tfoot>
+</table>
+<br>
+
+<!-- lists in HTML -->
+<!-- List has two types: Ordered and unordered list -->
+<!-- Ordered List -->
+<ol>
+    <li>Ram</li>
+    <li>Shyam</li>
+    <li>Hari</li>
+</ol>
+<ol type="A">
+    <li>Ram</li>
+    <li>Shyam</li>
+    <li>Hari</li>
+</ol>
+<ol type="a">
+    <li>Ram</li>
+    <li>Shyam</li>
+    <li>Hari</li>
+</ol>
+<ol type="I">
+    <li>Ram</li>
+    <li>Shyam</li>
+    <li>Hari</li>
+</ol>
+<ol type="i">
+    <li>Ram</li>
+    <li>Shyam</li>
+    <li>Hari</li>
+</ol>
+
+<!-- Unordered List -->
+
+<ul>
+    <li>Ram</li>
+    <li>Shyam</li>
+    <li>Hari</li>
+</ul>
+
+<ul type="square">
+    <li>Ram</li>
+    <li>Shyam</li>
+    <li>Hari</li>
+</ul>
+
+<ul type="circle">
+    <li>Ram</li>
+    <li>Shyam</li>
+    <li>Hari</li>
+</ul>
+       
+<br>
+<!-- Other lists -->
+<dl>
+    <dt>Coffee</dt>
+    <dd>- black hot drink</dd>
+    <dt>Milk</dt>
+    <dd>- white cold drink</dd>
+  </dl>
+</fieldset>    
+</body>
+</html>

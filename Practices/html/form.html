@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form in HTML</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            align-items: center;
+            background-color: antiquewhite;
+        }
+
+        input[type="button"],
+        input[type="reset"] {
+            padding: 10px 20px;
+            background-color: blue;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        input[type="button"]:hover,
+        input[type="reset"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Simple Form Design Using HTML</h1>
+    <form action="POST">
+        <fieldset>
+            <legend>User's Information</legend>
+            <div>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" placeholder="Enter Your username">
+
+
+                <label for="password">Password:</label>
+                <input type="text" id="password" name="password" placeholder="Enter Your password">
+            </div>
+
+            <div>
+                <label for="male">Male</label>
+                <input type="radio" id="male" name="gender" value="male">
+
+                <label for="female">Female</label>
+                <input type="radio" id="female" name="gender" value="female">
+
+                <label for="others">Others</label>
+                <input type="radio" id="others" name="gender" value="others">
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="Enter your email">
+            </div>
+            <div>
+                <label for="hobby">Hobbies:</label>
+                <label for="hobby">Cricket</label>
+                <input type="checkbox" id="hobby" name="hobby">
+                <label for="hobby">Football</label>
+                <input type="checkbox" id="hobby" name="hobby">
+                <label for="hobby">Basketball</label>
+                <input type="checkbox" id="hobby" name="hobby">
+            </div>
+            <div>
+                <select name="country" id="country">
+                    <option value="country">Nepal</option>
+                    <option value="country">India</option>
+                    <option value="country">China</option>
+                    <option value="country">USA</option>
+                    <option value="country">Canada</option>
+                    <option value="country">Australia</option>
+                    <option value="country">Others</option>
+                </select>
+            </div>
+            <div>
+                <label for="description">Enter Description Here:</label>
+                <textarea name="textarea" id="description" cols="40" rows="10">Enter Description Here...</textarea>
+            </div>
+            <div>
+                <input type="button" value="Submit">
+                <input type="reset" value="Reset">
+            </div>
+
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
