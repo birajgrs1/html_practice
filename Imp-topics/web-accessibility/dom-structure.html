@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web accessibility to manage with DOM </title>
+    <style>
+        .btns{
+            display: flex;
+            /* flex-direction: row-reverse; */
+        }
+        .btns > button:focus{
+            outline: 2px solid #222;
+        }
+        /* .btn{
+            border:1px solid #222;
+        } */
+    </style>
+</head>
+<body class="btns" onclick="clickMe(event)">
+    <button id="btn-one">Click me</button>
+    <button id="btn-two">Click me2</button>
+    <button id="btn-three">Click me3</button>
+    <button id="btn-four">Click me4</button>
+    <!-- Use Semantics  -->
+    <!-- <div class="btn" tab="0">Click me5</div>    -->
+
+    
+</body>
+<script>
+    function clickMe(e){
+        console.log(e.target.innerText);
+    }
+
+</script>
+</html>
